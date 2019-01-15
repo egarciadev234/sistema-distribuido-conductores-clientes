@@ -1,0 +1,23 @@
+{
+    "name": "APIRestClienteConductor",
+    "version": "1.0.0",
+    "description": "Sistema de Autenticacion token para dos sistemas frontend(cliente, conductor)",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo\"Error: no especificado\" && exit 1",
+        "dev": "nodemon server.js"
+    },
+    "keywords": [],
+    "author": "",
+    "licence": "ISC",
+    "dependencies": {
+        "ejs-mate": "^3.0.0",
+        "express": "^4.16.4",
+        "jsonwebtoken": "^8.4.0",
+        "mongoose": "^5.4.4",
+        "morgan": "^1.9.1"
+    },
+    "devDependencies": {
+        "nodemon": "^1.18.9"
+    }
+}
